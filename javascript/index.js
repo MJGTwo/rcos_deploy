@@ -7,7 +7,7 @@ const port = 3000
 // })
 
 function hello(request, response) {
-  response.send('Hello Brendan')
+  response.send('js says "Hello World!"')
 }
 app.get('/', hello)
 
